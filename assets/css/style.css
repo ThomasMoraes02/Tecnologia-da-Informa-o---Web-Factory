@@ -1,0 +1,535 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 5px auto;
+}
+
+.conteudo {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #007bff;
+    padding: 15px 0;
+    z-index: 10;
+    border-bottom: 1px solid #000;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header_menu ul li a {
+    color: rgba(253, 247, 247, 0.788);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #FFF;
+}
+
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+}
+
+
+/* Footer */
+
+.rodape {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 35px;
+}
+
+.rodape h2 {
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fec63e;
+}
+
+.rodape p {
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+.redes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes li a {
+    border: 3px solid #007bff;
+    display: block;
+    padding: 8px;
+}
+
+.redes li a:hover {
+    border-color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background: #007bff;
+    border-top: 1px solid #000;
+}
+
+
+/**
+ HOME
+**/
+
+
+/* Introdução */
+
+.introducao {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.introducao img {
+    max-width: 100%;
+    height: 400px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+
+/* Sobre Nós */
+
+.sobre {
+    width: 100%;
+    background: #000;
+    text-align: center;
+    height: 150px;
+    margin: 10px 0;
+}
+
+.sobre .titulo {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.sobre .titulo::after {
+    background: #fff;
+}
+
+.btn {
+    border: 3px solid #007bff;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+
+/* Serviço */
+
+.servico {
+    background: url("/assets/img/imagem1.png") no-repeat center;
+    background-size: cover;
+}
+
+.servico img {
+    max-width: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+
+/* Portfólio */
+
+.portfolio {
+    width: 100%;
+    background: #000;
+    color: #FFF;
+    margin: 20px 0;
+}
+
+.portfolio .titulo::after {
+    background: #fff;
+}
+
+.portfolio ul li {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.portfolio ul li img {
+    max-width: 100%;
+}
+
+
+/* Avaliações */
+
+.avaliacoes {
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+.avaliacoes ul li {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 15px;
+}
+
+.avaliacoes ul li p:nth-child(even) {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.avaliacoes ul li img {
+    max-width: 100%;
+}
+
+
+/**
+
+CONTATO
+
+**/
+
+
+/**
+
+ SOBRE
+
+**/
+
+.historia {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.historia p {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.valores h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #007bff;
+}
+
+.valores p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.valores ul {
+    margin-top: 10px;
+}
+
+.valores ul li {
+    font-size: 16px;
+    border: 1px solid rgb(224, 219, 219);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.valores ul li:nth-child(odd) {
+    background: #007bff;
+    color: #FFF;
+}
+
+.valores {
+    margin-bottom: 40px;
+}
+
+.localizacao {
+    margin-top: 20px;
+    width: 100%;
+    background: #000;
+    padding: 20px;
+    color: #FFF;
+}
+
+.localizacao .titulo::after {
+    background: #FFF;
+}
+
+.equipe {
+    margin-top: 40px;
+}
+
+.equipe .grid-3 img {
+    max-width: 100%;
+}
+
+.equipe ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.equipe ul li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.equipe ul li p {
+    line-height: 25px;
+}
+
+.sobre-equipe {
+    width: 100%;
+    background: #000;
+    color: #FFF;
+    padding: 40px;
+}
+
+.sobre-equipe .titulo::after {
+    background: #FFF;
+}
+
+.sobre-equipe p {
+    padding: 5px;
+    font-style: italic;
+}
+
+
+/* Contato */
+
+.contato {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.contato-formulario {
+    margin-top: 40px;
+}
+
+.formulario {
+    display: block;
+}
+
+.formulario label {
+    margin: 10px 0px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #007bff;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #007bff;
+    margin: 10px 0;
+}
+
+.botao {
+    border: 3px solid #007bff;
+    padding: 10px 30px;
+    color: #007bff;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    margin: 10px auto 15px auto;
+}
+
+.botao:hover {
+    color: #007bff;
+    border-color: #000;
+}
+
+.dados {
+    line-height: 25px;
+}
+
+.dados p {
+    margin-left: 50px;
+}
+
+.redes-contato {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.redes-contato h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.redes-contato ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    border: 3px solid #007bff;
+    background: #000;
+}
+
+.redes-contato ul li:hover {
+    border-color: #000;
+}
+
+
+/* Trabalhe Conosco */
+
+.trabalhe-conosco {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.trabalhe-conosco h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    padding: 10px;
+}
+
+.trabalhe-conosco p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.trabalhe-conosco ul li {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.trabalhe-conosco ul li:nth-child(odd) {
+    background: #007bff;
+    color: #FFF;
+}
+
+.sustentabilidade {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.sustentabilidade h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    padding: 10px;
+}
+
+.sustentabilidade ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sustentabilidade ul li {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.sustentabilidade ul li:nth-child(odd) {
+    color: #fff;
+    background: #007bff;
+}
+
+.curriculo {
+    width: 100%;
+    background: #000;
+    color: #FFF;
+    margin-top: 40px;
+}
+
+.curriculo h1 {
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.curriculo .titulo::after {
+    background: #FFF;
+    margin-bottom: 30px;
+}
+
+.form-curriculo {
+    margin: 10px 0px;
+}
+
+.form-curriculo input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px auto;
+    border: 2px solid #fec63e;
+}
+
+.form-curriculo textarea {
+    height: 140px;
+}
+
+.form-curriculo button {
+    padding: 15px;
+    background: none;
+    color: #fec63e;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 3px solid #fec63e;
+}
+
+.form-curriculo button:hover {
+    border-color: #fff;
+    color: #fff;
+}
