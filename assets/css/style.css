@@ -22,9 +22,10 @@ body {
 }
 
 .conteudo {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
+    line-height: 25px;
 }
 
 
@@ -126,11 +127,29 @@ body {
     padding-top: 50px;
 }
 
+.imagem-intro {
+    text-align: center;
+}
+
 .introducao img {
     max-width: 100%;
-    height: 400px;
-    margin: 0px auto;
     border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.introducao h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.introducao h2+p {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px;
 }
 
 
