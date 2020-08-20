@@ -2,7 +2,7 @@
     <div class="container">
         <h1 class="titulo">Web Factory</h1>
         <p>
-        A Web Factory é uma empresa que foi fundada em 2020 com o objetivo de desenvolver websites para empresas de pequeno porte que estão se inserindo no mercado, ou já estejam no mercado mas querem expandir seus negócios através de sites que tragam mais informações
+        A Web Factory é uma empresa que foi fundada em 2020 com o objetivo de desenvolver web sites para empresas de pequeno porte que estão se inserindo no mercado, ou já estejam no mercado mas querem expandir seus negócios através de sites que tragam mais informações
         e acessibilidade, conseguindo assim maiores lucros e um melhor relacionamento para/com os seus clientes.
         </p>
 
@@ -24,7 +24,7 @@
 
         <div class="grid-1-3">
             <h2>Missão</h2>
-            <p>A WebFactory trás como missão em todo seu potencial criar WebSites para novas empresas de pequeno porte que ainda se encontram desoladas no mercado e buscam sua expansão no meio midiático através de um website, gerando mais acessibilidade no atendimento de seus clientes.</p>
+            <p>A Web Factory trás como missão em todo seu potencial criar WebSites para novas empresas de pequeno porte que ainda se encontram desoladas no mercado e buscam sua expansão no meio midiático através de um website, gerando mais acessibilidade no atendimento de seus clientes.</p>
         </div>
 
         <div class="grid-1-3">
@@ -35,7 +35,7 @@
         <div class="grid-1-3">
             <h2>Valores</h2>
             <p>Buscamos sempre manter a eficiência de nossos sistemas, atualizando-os com as mais novas ferramentas do mercado.</p> </br>
-            <p>A web Factory traz como valores:</p>
+            <p>A Web Factory traz como valores:</p>
             <ul>
                 <li>Confiança</li>
                 <li>Integridade</li>

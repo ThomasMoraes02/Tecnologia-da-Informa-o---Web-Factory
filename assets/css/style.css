@@ -456,34 +456,48 @@ CONTATO
     color: #FFF;
 }
 
-.sustentabilidade {
+.diferenciais {
     margin-top: 20px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
-.sustentabilidade h4 {
+.diferenciais h4 {
     font-size: 24px;
     font-weight: bold;
     color: #007bff;
     padding: 10px;
+    text-align: center;
+}
+
+.diferenciais ul {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.sustentabilidade {
+    margin: 0 auto;
+}
+
+.sustentabilidade p {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.sustentabilidade h2 {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .sustentabilidade ul {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    list-style-type: disc;
 }
 
 .sustentabilidade ul li {
-    border: 1px solid #fff;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.sustentabilidade ul li:nth-child(odd) {
-    color: #fff;
-    background: #007bff;
+    padding-bottom: 10px;
 }
 
 .curriculo {
@@ -527,9 +541,13 @@ textarea {
     font-size: 14px;
     text-transform: uppercase;
     border: 3px solid #fec63e;
+    margin-bottom: 40px;
 }
 
 .form-curriculo button:hover {
     border-color: #fff;
     color: #fff;
 }
+
+
+/* Responsivo */
