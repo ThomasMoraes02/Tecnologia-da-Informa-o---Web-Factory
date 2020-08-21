@@ -570,3 +570,197 @@ textarea {
 
 
 /* Responsivo */
+
+
+/* Tablet */
+
+@media only screen and (min-width:788px) and (max-width: 979px) {
+    .container {
+        width: 768px;
+    }
+    .grid-1 {
+        width: 28px;
+    }
+    .grid-2 {
+        width: 76px;
+    }
+    .grid-3 {
+        width: 124px;
+    }
+    .grid-4 {
+        width: 172px;
+    }
+    .grid-5 {
+        width: 220px;
+    }
+    .grid-6 {
+        width: 268px;
+    }
+    .grid-7 {
+        width: 316px;
+    }
+    .grid-8 {
+        width: 364px;
+    }
+    .grid-9 {
+        width: 412px;
+    }
+    .grid-10 {
+        width: 460px;
+    }
+    .grid-11 {
+        width: 508px;
+    }
+    .grid-12 {
+        width: 556px;
+    }
+    .grid-13 {
+        width: 604px;
+    }
+    .grid-14 {
+        width: 652px;
+    }
+    .grid-15 {
+        width: 700px;
+    }
+    .grid-16 {
+        width: 748px;
+    }
+    .grid-1-3 {
+        width: 236px;
+    }
+}
+
+
+/* Smartphone */
+
+@media only screen and (max-width:787px) {
+    .container {
+        width: 300px;
+    }
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5,
+    .grid-6,
+    .grid-7,
+    .grid-8,
+    .grid-9,
+    .grid-10,
+    .grid-11,
+    .grid-12,
+    .grid-13,
+    .grid-14,
+    .grid-15,
+    .grid-16,
+    .grid-1-3 {
+        width: 300px;
+        margin: 0px 0px 20px 0px;
+        float: none;
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width:788px) and (max-width:959px) {}
+
+
+/* Smartphone */
+
+@media only screen and (max-width:787px) {
+    /* Header */
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+    .header img {
+        margin: 0 auto 20px auto;
+        margin-left: 50px;
+    }
+    .header_menu {
+        text-align: center;
+    }
+    .header_menu ul li {
+        margin: 5px;
+    }
+    .header_menu ul li a {
+        border: 4px solid #000;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+    .header_menu ul li a:hover {
+        border-color: #FFF;
+    }
+    /* Tela Inicial */
+    .introducao {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .conteudo {
+        margin-bottom: 20px;
+    }
+    .introducao h2 {
+        padding-top: 0px;
+    }
+    .introducao h2 p {
+        margin: 0 auto;
+        line-height: 0px;
+        letter-spacing: 0;
+    }
+    /* Serviço */
+    .portfolio ul li {
+        padding: 5px 0;
+    }
+    /* Avaliacoes */
+    .avaliacoes ul li {
+        margin: 0;
+    }
+    .avaliacoes ul li img {
+        width: 60%;
+    }
+    /* Tela de Contato */
+    .contato {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .dados p {
+        margin: 0 auto;
+    }
+    .redes-contato h2 {
+        margin: 0 auto;
+    }
+    .redes-contato ul li {
+        margin: 0 auto;
+    }
+    .redes-contato ul li:nth-child(2) {
+        margin: 0 5px;
+    }
+    /* Tela Sobre Nós */
+    .historia {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .equipe ul {
+        display: block;
+    }
+    .equipe ul img {
+        margin: 0 auto;
+    }
+    .equipe ul h3 {
+        text-align: center;
+    }
+    .equipe ul li p {
+        font-size: 16px;
+    }
+    /* Tela Trabalhe Conosco */
+    .trabalhe-conosco {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .form-curriculo button {
+        margin-bottom: 0px;
+    }
+}
