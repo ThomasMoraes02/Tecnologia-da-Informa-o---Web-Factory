@@ -7,17 +7,58 @@
 <section class="contato-formulario">
     <div class="container">
 
-        <form class="grid-7 formulario" method="POST">
-            <label for="nome">Nome: </label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email" placeholder="email@dominio">
-            <label for="telefone">Telefone: </label>
-            <input type="text" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX">
-            <label for="mensagem">Mensagem</label>
-            <textarea name="mensagem" id="mensagem"></textarea>
-            <button class="botao" type="submit">Enviar</button>
-        </form>
+        <p class=""><?= $this->session->flashdata("enviada")?></p>
+        
+        <div class="grid-7 formulario">
+        <?php
+        
+        echo form_open("contato/mensagem");
+
+        echo form_label("Nome","nome");
+        echo form_input(array(
+            "name" => "nome",
+            "id" => "nome",
+            "type" => "text",
+            "maxlenght" => "255",
+            "placeholder" => "Digite seu nome..."
+        ));
+
+        echo form_label("E-mail","email");
+        echo form_input(array(
+            "name" => "email",
+            "id" => "email",
+            "type" => "email",
+            "maxlenght" => "255",
+            "placeholder" => "email@dominio"
+        ));
+
+        echo form_label("Telefone","telefone");
+        echo form_input(array(
+            "name" => "telefone",
+            "id" => "telefone",
+            "type" => "text",
+            "maxlenght" => "255",
+            "placeholder" => "(XX) XXXXX-XXXX"
+        ));
+
+        echo form_label("Mensagem","mensagem");
+        echo form_textarea(array(
+            "name" => "mensagem",
+            "maxlenght" => "300",
+            "id" => "mensagem"
+        ));
+
+        echo form_button(array(
+            "content" => "Enviar",
+            "class" => "botao",
+            "type" => "submit"
+        ));
+        
+        echo form_close();
+        
+        ?>
+        </div>
+
 
         <div class="grid-8 dados">
             <h1 class="titulo">Dados</h1>
@@ -31,7 +72,7 @@
                 <ul>
                     <li><a href="https://facebook.com" target="_blank"><img src="<?php echo base_url("/assets/img/redes-sociais/facebook.svg") ?>" alt="Facebook"></a></li>
                     <li><a href="https://instagram.com" target="_blank"><img src="<?php echo base_url("/assets/img/redes-sociais/instagram.svg") ?>" alt="Instagram"></a></li>
-                    <li><a href="https://twitter.com" target="_blank"><img src="<?php echo base_url("/assets/img/redes-sociais/twitter.svg") ?>" alt="Twitter"></a></li>
+                    <li><a href="https://twitter.com" target="_blank" ><img src="<?php echo base_url("/assets/img/redes-sociais/twitter.svg") ?>" alt="Twitter"></a></li>
                 </ul>
             </div>
         </div>

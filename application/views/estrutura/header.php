@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo base_url("assets/css/reset.css")?>">
     <link rel="stylesheet" href="<?php echo base_url("assets/css/grid.css")?>">
-    <link rel="stylesheet" href="<?php echo base_url("assets/css/estilo.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/style.css")?>">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url("assets/img/favicon/favicon3.ico") ?>">
     <title><?php echo $titulo; ?></title>
 </head>
 <header class=" header ">
         <div class="container ">
             <a href="<?php echo site_url("home/index/index.php") ?>" class="grid-4 ">
-                <img src="<?php echo base_url("assets/img/logo.png") ?>" alt="logo da web factory">
+                <img src="<?php echo base_url("assets/img/favicon/logo.png") ?>" alt="logo da web factory">
             </a>
             <nav class="header_menu grid-12 ">
                 <ul>
@@ -24,4 +24,3 @@
         </div>
     </header>
 <body>
-    

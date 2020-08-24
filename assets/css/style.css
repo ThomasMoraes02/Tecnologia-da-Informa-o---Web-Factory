@@ -28,6 +28,14 @@ body {
     line-height: 25px;
 }
 
+.mensagem-enviada {
+    padding: 30px;
+    background: #007bff;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+}
+
 
 /* Header */
 

@@ -84,26 +84,67 @@
 <section class="curriculo">
     <div class="container">
         <h1 class="titulo">Faça parte da nossa equipe !</h1>
-        <form method="post" class="form-curriculo">
+
+        <div class="form-curriculo">
+            <?php echo form_open("trabalhe/emprego"); ?>
+
             <div class="grid-8">
-            <label for="nome">Nome Completo</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo..." required>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="email@dominio" required>
+            <?php 
+            echo form_label("Nome", "nome");
+            echo form_input(array(
+                "name" => "nome",
+                "id" => "nome",
+                "placeholder" => "Digite seu nome completo...",
+                "required" => "field"
+            ));
+
+            echo form_label("E-mail", "email");
+            echo form_input(array(
+                "name" => "telefone",
+                "id" => "telefone",
+                "placeholder" => "(XX) XXXXX-XXXX",
+                "required" => "field"
+            ));
+            ?>
             </div>
 
             <div class="grid-8">
-            <label for="telefone">Telefone</label>
-            <input type="text" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
-            <label for="experiencia">Possui experiência?</label>
-            <input type="text" name="experiencia" id="experiencia" placeholder="Possui experiência em alguma área de desenvolvimento?" required>
+                <?php
+                echo form_label("Telefone","telefone");
+                echo form_input(array(
+                    "name" => "telefone",
+                    "id" => "telefone",
+                    "placeholder" => "(XX) XXXXX-XXXX",
+                    "required" => "field"
+                ));
+                
+                echo form_label("Possui experiência?", "experiencia");
+                echo form_input(array(
+                    "name" => "experiencia",
+                    "id" => "experiencia",
+                    "placeholder" => "Possui experiência em alguma área de desenvolvimento?",
+                    "required" => "field"
+                )); 
+
+                ?>
             </div>
 
             <div class="grid-16">
-            <label for="curriculo">Nos conte sobre suas experiências, idéias e currículo.</label>
-            <textarea name="curiculo" id="curriculo"></textarea>
-            <button type="submit">Enviar Curriculo</button>
+            <?php 
+            echo form_label("Curriculo","curriculo"); 
+            echo form_textarea(array(
+                "name" => "curriculo",
+                "id" => "curriculo",
+                "maxlenght" => "500"
+            ));
+
+            echo form_button(array(
+                "content" => "Enviar Curriculo",
+                "type" => "submit",
+            ));
+            ?>
             </div>
-        </form>
+            <?php echo form_close(); ?>
+        </div>
     </div>
 </section>

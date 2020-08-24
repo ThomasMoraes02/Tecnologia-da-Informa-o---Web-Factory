@@ -15,7 +15,7 @@
                 </ul>
             </div>
 
-            <div class="grid-4">
+            <div class="grid-4 redes-footer">
                 <h2>Redes Sociais</h2>
                 <ul class="redes">
                    <li>
