@@ -24,7 +24,15 @@ class Trabalhe extends CI_Controller
 
         $this->usuarios_model->salvarCurriculo($curriculo);
 
-        redirect("/");
+        //Sessão de usuário
+        $this->session->set_userdata("curriculo_enviada" ,$curriculo);
+        
+        $this->session->set_flashdata("curriculo_enviado", "Curriculo enviado com sucesso! Aguarde que em breve entraremos em contato.");
+
+        $data = array("titulo" => "Web Factory - Trabalhe Conosco");
+        $this->load->view("estrutura/header.php" ,$data);
+        $this->load->view("trabalhe/trabalhe.php");
+        $this->load->view("estrutura/footer.php");
     }
 }
 

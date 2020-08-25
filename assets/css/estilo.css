@@ -29,11 +29,19 @@ body {
 }
 
 .mensagem-enviada {
-    padding: 30px;
-    background: #007bff;
-    color: #FFF;
-    font-size: 16px;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
+    padding-bottom: 15px;
+}
+
+.curriculo-enviado {
+    color: #fec63e;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
 }
 
 

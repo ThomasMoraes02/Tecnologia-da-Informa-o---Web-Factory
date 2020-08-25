@@ -9,7 +9,7 @@ class Usuarios_model extends CI_Model
 
     public function salvarCurriculo($curriculo)
     {
-        $this->db->insert("tb_contato", $curriculo);
+        $this->db->insert("tb_curriculo", $curriculo);
     }
 }
 

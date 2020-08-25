@@ -7,7 +7,7 @@
 <section class="contato-formulario">
     <div class="container">
 
-        <p class=""><?= $this->session->flashdata("enviada")?></p>
+        <p class="mensagem-enviada"><?= $this->session->flashdata("enviada")?></p>
         
         <div class="grid-7 formulario">
         <?php

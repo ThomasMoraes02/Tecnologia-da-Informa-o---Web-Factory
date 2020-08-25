@@ -24,9 +24,14 @@ class Contato extends CI_Controller
         $this->usuarios_model->salvar($mensagem);
 
         //Sessão de usuário
+        $this->session->set_userdata("mensagem_enviada" ,$mensagem);
+        
         $this->session->set_flashdata("enviada", "Mensagem enviada com sucesso");
 
+        $data = array("titulo" => "Web Factory - Contato");
+        $this->load->view("estrutura/header.php",$data);
         $this->load->view("contato/contato.php");
+        $this->load->view("estrutura/footer.php");
     }
 }
 

@@ -85,6 +85,8 @@
     <div class="container">
         <h1 class="titulo">Faça parte da nossa equipe !</h1>
 
+        <p class="curriculo-enviado"><?= $this->session->flashdata("curriculo_enviado")?></p>
+
         <div class="form-curriculo">
             <?php echo form_open("trabalhe/emprego"); ?>
 
@@ -95,15 +97,14 @@
                 "name" => "nome",
                 "id" => "nome",
                 "placeholder" => "Digite seu nome completo...",
-                "required" => "field"
             ));
 
             echo form_label("E-mail", "email");
             echo form_input(array(
-                "name" => "telefone",
-                "id" => "telefone",
+                "name" => "email",
+                "id" => "email",
+                "type" => "email",
                 "placeholder" => "(XX) XXXXX-XXXX",
-                "required" => "field"
             ));
             ?>
             </div>
@@ -115,7 +116,6 @@
                     "name" => "telefone",
                     "id" => "telefone",
                     "placeholder" => "(XX) XXXXX-XXXX",
-                    "required" => "field"
                 ));
                 
                 echo form_label("Possui experiência?", "experiencia");
@@ -123,7 +123,6 @@
                     "name" => "experiencia",
                     "id" => "experiencia",
                     "placeholder" => "Possui experiência em alguma área de desenvolvimento?",
-                    "required" => "field"
                 )); 
 
                 ?>
