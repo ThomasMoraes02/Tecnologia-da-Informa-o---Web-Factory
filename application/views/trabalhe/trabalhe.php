@@ -45,7 +45,7 @@
                 <li>Organização</li>
                 <li>Trabalho em equipe</li>
                 <li>Conhecimentos em Metodologia Ágil</li>
-                <li>Autodidata</li>
+                <li>Git e GitHub</li>
             </ul>
         </div>
 

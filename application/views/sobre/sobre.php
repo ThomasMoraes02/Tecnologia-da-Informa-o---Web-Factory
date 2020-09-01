@@ -24,12 +24,12 @@
 
         <div class="grid-1-3">
             <h2>Missão</h2>
-            <p>A Web Factory trás como missão em todo seu potencial criar WebSites para novas empresas de pequeno porte que ainda se encontram desoladas no mercado e buscam sua expansão no meio midiático através de um website, gerando mais acessibilidade no atendimento de seus clientes.</p>
+            <p>A Web Factory trás como missão em todo seu potencial criar web sites para novas empresas de pequeno porte que ainda se encontram desoladas no mercado e buscam sua expansão no meio midiático através de um website, gerando mais acessibilidade no atendimento de seus clientes.</p>
         </div>
 
         <div class="grid-1-3">
             <h2>Visão</h2>
-            <p>Nosso objetivo é oferecer à outras empresas a oportunidade de se lançar no mercado midiático online em tempo hábil e com eficiência, de forma rentável, consequentemente fazendo seu marketing através de seus clientes e requisitores. Buscamos ser referência neste cenário tecnológico e em 5 anos ser a maior desenvolvedora de web sites empresariais do Brasil.</p>
+            <p>Nosso objetivo é oferecer para outras empresas a oportunidade de se lançar no mercado midiático online em tempo hábil e com eficiência, de forma rentável, consequentemente fazendo seu marketing através de seus clientes e requisitores. Buscamos ser referência neste cenário tecnológico e em 5 anos ser a maior desenvolvedora de web sites empresariais do Brasil.</p>
         </div>
 
         <div class="grid-1-3">
